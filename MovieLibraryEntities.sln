@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "movieListingApp", "..\movieListingAppNew\movieListingApp.csproj", "{09F0A635-F778-441C-8328-FB1316069225}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieLibraryEntities", "MovieLibraryEntities\MovieLibraryEntities.csproj", "{76FA90D5-DC9C-45E1-98F2-AC492844666E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09F0A635-F778-441C-8328-FB1316069225}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09F0A635-F778-441C-8328-FB1316069225}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09F0A635-F778-441C-8328-FB1316069225}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09F0A635-F778-441C-8328-FB1316069225}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76FA90D5-DC9C-45E1-98F2-AC492844666E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76FA90D5-DC9C-45E1-98F2-AC492844666E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76FA90D5-DC9C-45E1-98F2-AC492844666E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76FA90D5-DC9C-45E1-98F2-AC492844666E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0575BA16-A95E-48D7-B623-F95D5E3C6E9C}
+	EndGlobalSection
+EndGlobal
