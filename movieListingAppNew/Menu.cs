@@ -49,7 +49,7 @@ namespace movieListingApp
 
         private string DisplayMenu()
         {
-            Console.WriteLine("\t--Menu--\n1. File service (read/write)\n2. Add movie to database\n3. List movies From DB\n4. Q to Quit\n==>");
+            Console.Write("\t--Menu--\n1. File service (read/write)\n2. Add movie to database\n3. List movies From DB\n4. Search movie\n5. Q to Quit\n==>");
             return Console.ReadLine().ToLower();
 
         }
