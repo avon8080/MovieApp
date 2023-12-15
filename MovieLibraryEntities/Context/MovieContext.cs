@@ -4,7 +4,7 @@ using MovieLibraryEntities.Models;
 
 namespace MovieLibraryEntities.Context;
 
-public class MovieContext :  DbContext
+public class MovieContext :  DbContext, IContext
 {
     public DbSet<Genre> Genres { get; set; }
     public DbSet<Movie> Movies { get; set; }
@@ -23,5 +23,9 @@ public class MovieContext :  DbContext
         optionsBuilder.UseLazyLoadingProxies().UseSqlServer(
             configuration.GetConnectionString("MovieDatabase_10024_elalor")
         );
+    }
+    public void Dispose()
+    {
+        base.Dispose();
     }
 }

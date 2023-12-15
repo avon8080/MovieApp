@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MovieLibraryEntities.Context;
 
-public interface IContext 
+public interface IContext : IDisposable
 {
 
 }
